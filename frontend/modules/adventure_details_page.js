@@ -40,12 +40,12 @@ function addAdventureDetailsToDOM(adventure) {
   
 
   let gallery = adventure.images;
-  gallery.forEach(element => {
-    let img = document.createElement("div")
-    let img_gallery = document.getElementById("photo-gallery")
-    img.innerHTML=`<img src="${element}" class="activity-card-image"/>`
-    img_gallery.appendChild(img)
-  });
+//   gallery.forEach(element => {
+//     let img = document.createElement("div")
+//     let img_gallery = document.getElementById("photo-gallery")
+//     img.innerHTML=`<img src="${element}" class="activity-card-image"/>`
+//     img_gallery.appendChild(img)
+//   });
 
   let adv_content = document.getElementById("adventure-content")
   adv_content.innerText=adventure.content;
